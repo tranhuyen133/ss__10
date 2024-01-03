@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    background-color: orange;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    border-radius: 20%;
+    list-style-type: none;
+    color: white;
+    text-align: center;
+    align-items: center;
+  }
+  main {
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+
+  .columnTable {
+    display: flex;
+    flex-direction: column;
+  }
+  .rowTable {
+    display: flex;
+  }

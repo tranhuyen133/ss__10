@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+  }
+nav{
+    display: flex ;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: rgb(106, 106, 247);
+}
+img{
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+}
+div{
+    display: flex;
+}
+p{
+    margin-top: 8px;
+}
+.searchInput img{
+    position: absolute;
+    right: 0px;
+}
+.searchInput{
+    position: relative;
+}
